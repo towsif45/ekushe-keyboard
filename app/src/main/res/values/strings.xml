@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ekushe KeyBoard</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_keyboard">Ekushe Bangla SwipeBoard</string>
+    <string name="subtype_en_US">Bangla (BD) &amp; English (US)</string>
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]৷*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Sample Soft Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+</resources>

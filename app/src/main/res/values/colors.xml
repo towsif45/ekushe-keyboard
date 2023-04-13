@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="candidate_normal">#FF000000</color>
+    <color name="candidate_recommended">#FFE35900</color>
+    <color name="candidate_other">#ff808080</color>
+    <color name="candidate_background">#bbffffff</color>
+    <color name="teal">#263238</color>
+    <color name="teal1">#bc263238</color>
+    <color name="white">#fff</color>
+    <color name="space">#56646b</color>
+    <color name="blueLight">#8151bef5</color>
+    <color name="green_bg">#00695b</color>
+    <color name="green_key_1">#2d8579</color>
+    <color name="green_key_2">#2d8579</color>
+    <color name="grey">#404a50</color>
+
+    <color name="black">#000000</color>
+    <color name="Ash">#8b8282</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#183d18</color>
+    <color name="gg">#054353</color>
+    <color name="light_key_norm">#a7434949</color>
+    <color name="key_pressed">#8dc63f</color>
+    <color name="dark_key_norm">#2c2f2f</color>
+    <color name="light_text">#a7434949</color>
+    <color name="dark_text">#deebeb</color>
+    <color name="dark_shadow">#444444</color>
+    <color name="light_shadow">#97a2a2</color>
+    <color name="gesture">#bffc83</color>
+    <color name="transparant">#00fdfdfd</color>
+    <color name="kalo">#192125</color>
+    <color name="kala">#2d3539</color>
+    <color name="halka">#2e3539</color>
+    <color name="shada">#e3e5e6</color>
+</resources>

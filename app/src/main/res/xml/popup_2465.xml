@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="2466" android:keyLabel="ঢ"/>
+        <Key android:codes="2524" android:keyLabel="ড়"/>
+
+        <Key android:codes="24651" android:keyLabel="ডা"/>
+        <Key android:codes="24652" android:keyLabel="ডি"/>
+        <Key android:codes="24653" android:keyLabel="ডু"/>
+        <Key android:codes="24654" android:keyLabel="ডে"/>
+        <Key android:codes="24655" android:keyLabel="ডী"/>
+    </Row>
+</Keyboard>

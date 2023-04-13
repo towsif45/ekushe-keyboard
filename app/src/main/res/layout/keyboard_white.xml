@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.bangla.keyboard.CustomKeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/shada"
+    android:keyBackground="@drawable/btn_keyboard_abc_key_light"
+    android:keyTextColor="@color/kala"
+    android:popupLayout="@layout/popup_keyboard"
+    android:paddingBottom="3dp"
+    android:shadowRadius="0.0"
+    android:layout_marginTop="10dp"
+    >
+
+</com.bangla.keyboard.CustomKeyboardView>
+
+    <!--android:keyTextColor="#e3e5e6"-->

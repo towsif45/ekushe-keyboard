@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bangla.keyboard.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="329dp"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/app_logo" />
+
+        <Button
+            android:id="@+id/enable_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/app_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="কি-বোর্ড সক্রিয় করুন"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="enableKeyboard" />
+
+        <Button
+            android:id="@+id/choose_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/enable_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="কি-বোর্ড নির্বাচন"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="chooseKeyboard"
+            />
+
+        <Button
+            android:id="@+id/edittext_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/choose_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="লেখালেখি"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="edittextKeyboard" />
+
+        <Button
+            android:id="@+id/tutorial_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/edittext_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="কিছু বিশেষ ক্ষেত্র"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="tutorialKeyboard" />
+
+        <Button
+            android:id="@+id/theme_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/choose_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="কাস্টমাইজ কি-বোর্ড"
+            android:textSize="16dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="themeChange" />
+
+        <Button
+            android:id="@+id/tensorflow_button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/theme_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="Tensorflow Test"
+            android:textSize="16dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_enable_keyboard"
+            android:onClick="tensorflowTest" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sust"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="bottom"
+        android:src="@drawable/sust_logo_large" />
+
+</RelativeLayout>

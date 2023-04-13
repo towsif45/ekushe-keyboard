@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="24771" android:keyLabel="ভা"/>
+        <Key android:codes="24772" android:keyLabel="ভি"/>
+        <Key android:codes="24773" android:keyLabel="ভু"/>
+        <Key android:codes="24774" android:keyLabel="ভে"/>
+        <Key android:codes="24775" android:keyLabel="ভী"/>
+        <Key android:codes="24776" android:keyLabel="ভূ"/>
+    </Row>
+</Keyboard>

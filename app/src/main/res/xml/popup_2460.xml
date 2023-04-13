@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="2461" android:keyLabel="ঝ"/>
+        <Key android:codes="24601" android:keyLabel="জা"/>
+        <Key android:codes="24602" android:keyLabel="জি"/>
+        <Key android:codes="24603" android:keyLabel="জু"/>
+        <Key android:codes="24604" android:keyLabel="জে"/>
+        <Key android:codes="24605" android:keyLabel="জী"/>
+    </Row>
+
+</Keyboard>

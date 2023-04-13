@@ -1,0 +1,4 @@
+#Tue Sep 11 19:40:34 BDT 2018
+base.0=E\:\\thesis new\\android\\settings\\Bengali-Swipe-Keyboard-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

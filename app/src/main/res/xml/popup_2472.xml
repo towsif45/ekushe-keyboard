@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="2467" android:keyLabel="ণ"/>
+        <Key android:codes="2462" android:keyLabel="ঞ"/>
+        <Key android:codes="2457" android:keyLabel="ঙ"/>
+
+
+        <Key android:codes="24721" android:keyLabel="না"/>
+        <Key android:codes="24722" android:keyLabel="নি"/>
+        <Key android:codes="24723" android:keyLabel="নু"/>
+        <Key android:codes="24724" android:keyLabel="নে"/>
+        <Key android:codes="24725" android:keyLabel="নী"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bangla.keyboard.TutorialActivity"
+    android:background="@drawable/bbccnn"
+    >
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--app:srcCompat="@drawable/background" />-->
+
+   <!--<ImageView-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:id="@+id/linear1"-->
+       <!--android:src="@drawable/cases"-->
+       <!--/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="50dp"
+            android:paddingBottom="20dp"
+            android:text="কিছু বিশেষ ক্ষেত্র"
+            android:textColor="@color/black"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="বাংলা"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Key"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="বাংলা"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Key"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঋ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="rri"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঙ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Ng"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="রেফ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="rr + Con"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঐ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="OI"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঔ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="OU"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঞ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="NG"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ক্ষ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="kkh"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ৎ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="TH"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="জ্ঞ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="gg"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঁ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="qq"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ট"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="T"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ড"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="D"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঢ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Dh"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ণ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="N"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ড়"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="R"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঢ়"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Rh"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঈ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="I"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ঊ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="3"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="U"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tb1"
+                    android:text="এখানে Con = ব্যাঞ্জনবর্ণ"
+                    android:textColor="@color/black" />
+
+
+                <TableLayout
+                    android:id="@+id/tb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/text1"
+                    android:layout_marginTop="10dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="বাংলা"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="Key"
+                            android:textAlignment="center"
+                            android:textColor="@color/gg"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="কৃত"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="krrito"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="চাঁদ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="caqqd"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="অংক"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ongko"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="স্বাধীনতা"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="swadhInota"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="সূর্য"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="sUrrzo"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="রক্ত"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="rokto"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="বিজ্ঞ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="biggo"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="ব্রাহ্মণ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/shape3"
+                            android:text="= ="
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape3"
+                            android:text="brahmoN"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!--android:layout_below="@id/linear1">-->
+
+
+
+</RelativeLayout>

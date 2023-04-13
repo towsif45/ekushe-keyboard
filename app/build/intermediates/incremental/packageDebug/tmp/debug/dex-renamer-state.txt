@@ -1,0 +1,4 @@
+#Thu Mar 25 23:59:16 BDT 2021
+base.0=D\:\\tareq\\project 350\\test 3\\Ekushe resources\\Source code\\Bengali-Swipe-Keyboard-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

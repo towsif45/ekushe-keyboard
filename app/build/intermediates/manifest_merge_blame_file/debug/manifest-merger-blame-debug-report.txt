@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bangla.keyboard"
+4    android:versionCode="7"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:5:22-63
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:9:5-73:19
+16        android:allowBackup="true"
+16-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\tanvi\.gradle\caches\transforms-2\files-2.1\2b7c43aab63a19fe7e7008cae3e47596\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:12:9-41
+21        android:supportsRtl="true"
+21-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:13:9-35
+22        android:theme="@style/AppTheme" >
+22-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:14:9-40
+23        <activity android:name="com.bangla.keyboard.TensorflowTestActivity" />
+23-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:15:9-69
+23-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:15:19-57
+24        <activity
+24-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:16:9-25:20
+25            android:name="com.bangla.keyboard.Splash"
+25-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:17:13-35
+26            android:screenOrientation="portrait"
+26-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:18:13-49
+27            android:theme="@style/AppTheme.NoActionBar" >
+27-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:19:13-56
+28            <intent-filter>
+28-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:21:17-69
+29-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:23:17-77
+31-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:26:9-30:68
+35            android:name="com.bangla.keyboard.MainActivity"
+35-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:27:13-41
+36            android:label="@string/app_name"
+36-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:28:13-45
+37            android:screenOrientation="portrait"
+37-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:29:13-49
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:30:13-56
+39
+40        <service
+40-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:32:9-43:19
+41            android:name="com.bangla.keyboard.MyKeyboard"
+41-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:33:13-39
+42            android:label="@string/my_keyboard"
+42-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:34:13-48
+43            android:permission="android.permission.BIND_INPUT_METHOD" >
+43-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:35:13-70
+44            <meta-data
+44-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:36:13-38:50
+45                android:name="android.view.im"
+45-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:37:17-47
+46                android:resource="@xml/method" />
+46-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:38:17-47
+47
+48            <intent-filter>
+48-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:40:13-42:29
+49                <action android:name="android.view.InputMethod" />
+49-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:41:17-67
+49-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:41:25-64
+50            </intent-filter>
+51        </service>
+52
+53        <activity
+53-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:45:9-54:20
+54            android:name="com.bangla.keyboard.ImePreferences"
+54-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:46:13-43
+55            android:label="@string/settings_name"
+55-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:47:13-50
+56            android:theme="@style/AppTheme.NoActionBar" >
+56-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:48:13-56
+57
+58            <!-- <intent-filter> -->
+59            <!-- <action android:name="android.intent.action.MAIN"/> -->
+60            <!-- <category android:name="ANDROID.INTENT.CATEGORY.LAUNCHER"/> -->
+61            <!-- </intent-filter> -->
+62        </activity>
+63        <activity
+63-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:55:9-64:20
+64            android:name="com.bangla.keyboard.textActivity"
+64-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:56:13-41
+65            android:label="Practice Writing"
+65-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:57:13-45
+66            android:theme="@style/AppTheme.NoActionBar" >
+66-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:58:13-56
+67
+68            <!-- <intent-filter> -->
+69            <!-- <action android:name="android.intent.action.MAIN"/> -->
+70            <!-- <category android:name="ANDROID.INTENT.CATEGORY.LAUNCHER"/> -->
+71            <!-- </intent-filter> -->
+72        </activity>
+73        <activity
+73-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:65:9-68:59
+74            android:name="com.bangla.keyboard.TutorialActivity"
+74-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:66:13-45
+75            android:label="Special Cases"
+75-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:67:13-42
+76            android:theme="@style/AppTheme.NoActionBar" />
+76-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:68:13-56
+77        <activity
+77-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:69:9-72:59
+78            android:name="com.bangla.keyboard.customize"
+78-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:70:13-38
+79            android:label="Theme"
+79-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:71:13-34
+80            android:theme="@style/AppTheme.NoActionBar" />
+80-->D:\tareq\project 350\test 3\Ekushe resources\Source code\Bengali-Swipe-Keyboard-master\app\src\main\AndroidManifest.xml:72:13-56
+81    </application>
+82
+83</manifest>

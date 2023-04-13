@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customize"
+    android:background="@drawable/bbccnn"
+    >
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="থিম" />
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/black_theme"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/white_theme" />
+
+      <!--      <Button
+                android:id="@+id/button4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/grey_theme" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/green_theme" />-->
+        </LinearLayout>
+
+        <ToggleButton
+            android:id="@+id/button_sound"
+            android:layout_width="220dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_green"
+            android:textOff="শব্দ চালু করুন"
+            android:textOn="শব্দ বন্ধ করুন"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+        <ToggleButton
+            android:id="@+id/button_vibrate"
+            android:layout_width="220dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:text="ভাইব্রেট চালু করুন"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textOff="ভাইব্রেট চালু করুন"
+            android:textOn="ভাইব্রেট বন্ধ করুন"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

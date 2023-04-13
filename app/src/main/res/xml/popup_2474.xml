@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="2475" android:keyLabel="ফ"/>
+        <Key android:codes="24741" android:keyLabel="পা"/>
+        <Key android:codes="24742" android:keyLabel="পি"/>
+        <Key android:codes="24743" android:keyLabel="পু"/>
+        <Key android:codes="24744" android:keyLabel="পে"/>
+    </Row>
+</Keyboard>

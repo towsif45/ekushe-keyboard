@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+    <!--<solid android:color="@color/key_pressed" />-->
+
+    <!--&lt;!&ndash; 描边 ：边框宽度与颜色 &ndash;&gt;-->
+    <!--<stroke-->
+        <!--android:width="0dip"-->
+        <!--android:color="@color/dark_shadow" />-->
+
+    <!--&lt;!&ndash;-->
+                     <!--圆角的半径  也可以统一设置半径 android:radius="9dip"-->
+		 <!--android:topRightRadius="20dp" 右上角-->
+     	 <!--android:bottomLeftRadius="20dp"    右下角-->
+         <!--android:topLeftRadius="1dp"    左上角-->
+     	 <!--android:bottomRightRadius="0dp"    左下角-->
+    <!--&ndash;&gt;-->
+    <!--<corners android:radius="6px" />-->
+    <!--&lt;!&ndash;-->
+	<!--渐变-->
+    <!--<gradient-->
+        <!--android:angle="270"-->
+        <!--android:endColor="#FFFFFF"-->
+        <!--android:startColor="#ff8c00" />-->
+    <!--&ndash;&gt;-->
+
+<!--</shape>-->
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp"
+        android:bottom="4dp" >
+
+        <shape>
+            <solid android:color="@color/black"/>
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+
+
+    <item
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp"
+        android:bottom="4dp"
+        >
+
+        <shape >
+            <solid android:color="@color/key_pressed"/>
+            <padding android:bottom="1dp"> </padding>
+            <corners android:radius="7dp" />
+        </shape>
+    </item>
+
+</layer-list>

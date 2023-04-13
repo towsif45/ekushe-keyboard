@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+
+    <Row>
+        <Key android:codes="24591" android:keyLabel="ছা"/>
+        <Key android:codes="24592" android:keyLabel="ছি"/>
+        <Key android:codes="24593" android:keyLabel="ছু"/>
+        <Key android:codes="24594" android:keyLabel="ছে"/>
+        <Key android:codes="24595" android:keyLabel="ছী"/>
+    </Row>
+</Keyboard>
